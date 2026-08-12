@@ -1,0 +1,26 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/projects/aether-2",
+      "destination": "/projects/aether-2/index.html"
+    },
+    {
+      "source": "/projects/memory-control",
+      "destination": "/projects/memory-control/index.html"
+    },
+    {
+      "source": "/projects/ai-clarity",
+      "destination": "/projects/ai-clarity/index.html"
+    },
+    {
+      "source": "/projects/mindnest",
+      "destination": "/projects/mindnest/index.html"
+    },
+    {
+      "source": "/projects/gsb-evaluation",
+      "destination": "/projects/gsb-evaluation/index.html"
+    }
+  ]
+}
