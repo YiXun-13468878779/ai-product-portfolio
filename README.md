@@ -11,17 +11,19 @@
 | 项目 | 方向 | 在线体验 | 源码 |
 | --- | --- | --- | --- |
 | Aether 2.0 | 多模态 AI 创作与作品交流 | [Demo](https://aether-2-psi.vercel.app) | [GitHub](https://github.com/YiXun-13468878779/aether2.0) |
+| HARNESS / CITY | AI Agent 系统与交互可视化 | [Demo](https://deepseek-harness-city.vercel.app) | — |
+| MindNest | Claude 驱动的个人知识系统 | [Demo](https://mindnest-alpha.vercel.app) | [GitHub](https://github.com/YiXun-13468878779/mindnest) |
 | AI 助手的记忆系统 | AI 记忆透明度与控制权 | [Demo](https://memory-usage-summary.nocode.host) | — |
 | AI 技术科普平台 | 渐进式 AI 知识体验 | [Demo](https://ai-clarity-hub.nocode.host) | — |
-| MindNest | Claude 驱动的个人知识系统 | [Demo](https://mindnest-alpha.vercel.app) | [GitHub](https://github.com/YiXun-13468878779/mindnest) |
-| GSB 模型评估平台 | 对话模型人工评测闭环 | [Demo](https://gsb-eval-system-hub.nocode.host) | — |
+| GSB 模型评估平台 | 对话模型人工评测闭环 | [Demo](https://gsb-studio.vercel.app) | — |
 
 ## 仓库内容
 
 这是作品集网页的可独立部署 HTML 版本：
 
 - `index.html`：作品集首页
-- `projects/`：五个项目的独立案例页面
+- `projects/`：六个项目的独立案例页面
+- `demos/`：HARNESS / CITY 的完整离线交互页面
 - `styles.css`：完整视觉样式
 - `vercel.json`：Vercel 路由配置
 - `404.html`：静态站点回退页面

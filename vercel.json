@@ -7,6 +7,10 @@
       "destination": "/projects/aether-2/index.html"
     },
     {
+      "source": "/projects/harness-city",
+      "destination": "/projects/harness-city/index.html"
+    },
+    {
       "source": "/projects/memory-control",
       "destination": "/projects/memory-control/index.html"
     },
