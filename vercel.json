@@ -11,6 +11,10 @@
       "destination": "/projects/harness-city/index.html"
     },
     {
+      "source": "/projects/agent-society-simulation",
+      "destination": "/projects/agent-society-simulation/index.html"
+    },
+    {
       "source": "/projects/memory-control",
       "destination": "/projects/memory-control/index.html"
     },

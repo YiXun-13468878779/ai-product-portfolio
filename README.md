@@ -14,10 +14,11 @@
 | --- | --- | --- | --- | --- |
 | 01 | **Aether 2.0** | 多模态 AI 创作与作品交流 | [Demo](https://aether-2-psi.vercel.app/) | [GitHub](https://github.com/YiXun-13468878779/aether2.0) |
 | 02 | **HARNESS / CITY** | AI Agent 系统与交互可视化 | [Demo](https://deepseek-harness-city.vercel.app/) | [GitHub](https://github.com/YiXun-13468878779/deepseek-harness-city) |
-| 03 | **MindNest** | AI 知识管理与研究 Agent | [Demo](https://mindnest-alpha.vercel.app/) | [GitHub](https://github.com/YiXun-13468878779/mindnest) |
-| 04 | **AI 助手的记忆系统** | AI 记忆透明度与控制权 | [Demo](https://memory-usage-summary.nocode.host/) | — |
-| 05 | **AI 技术科普平台** | 渐进式 AI 知识体验 | [Demo](https://ai-clarity-hub.nocode.host/) | — |
-| 06 | **GSB Studio** | 对话模型人工评估闭环 | [Demo](https://gsb-studio.vercel.app/) | [GitHub](https://github.com/YiXun-13468878779/gsb-studio) |
+| 03 | **LLM Agent 社会仿真实验** | 计算社会科学与多智能体机制研究 | [预览研究演示](https://yixun-ai-portfolio.vercel.app/research/llm-agent-society.pdf) | — |
+| 04 | **MindNest** | AI 知识管理与研究 Agent | [Demo](https://mindnest-alpha.vercel.app/) | [GitHub](https://github.com/YiXun-13468878779/mindnest) |
+| 05 | **AI 助手的记忆系统** | AI 记忆透明度与控制权 | [Demo](https://memory-usage-summary.nocode.host/) | — |
+| 06 | **AI 技术科普平台** | 渐进式 AI 知识体验 | [Demo](https://ai-clarity-hub.nocode.host/) | — |
+| 07 | **GSB Studio** | 对话模型人工评估闭环 | [Demo](https://gsb-studio.vercel.app/) | [GitHub](https://github.com/YiXun-13468878779/gsb-studio) |
 
 ## 代表项目
 
@@ -28,6 +29,10 @@
 ### HARNESS / CITY｜可演化的插件城市
 
 将 DeepSeek Harness 的 255 个官方包和 788 条 peer 依赖重建为可探索的空间城市、依赖图谱与运行时实验室，尝试用交互方式解释复杂 Agent 架构，而不是停留在目录和连线层面。
+
+### LLM Agent 社会仿真实验｜机会如何转化为回报
+
+以 120 个 Agent、5 个社群和 15 轮信任博弈检验桥接位置的真实作用。研究同时设置 Rule / Random 基线与机制消融，区分结构机会、模型能力和关系稳定化。案例页支持直接预览与下载 5 页研究演示，但不公开论文原文。
 
 ### GSB Studio｜模型评估工作台
 
@@ -46,14 +51,16 @@
 
 ```text
 index.html                  作品集首页
-projects/                   六个项目的独立案例页面
+projects/                   七个项目的独立案例页面
   aether-2/
   harness-city/
+  agent-society-simulation/
   mindnest/
   memory-control/
   ai-clarity/
   gsb-evaluation/
 demos/                      HARNESS / CITY 离线交互页面
+research/                   可在线预览与下载的研究演示 PDF
 styles.css                  全站视觉样式
 vercel.json                 Vercel 路由配置
 404.html                    静态站点回退页面
