@@ -91,12 +91,6 @@ button, input { font: inherit; }
 .memory-orbit { position: absolute; border: 1px solid #2f3a29; border-radius: 50%; }
 .memory-orbit.one { width: 8px; height: 8px; right: 21%; top: 30%; background: var(--acid); }
 .memory-orbit.two { width: 17px; height: 17px; right: 9%; top: 45%; }
-.visual-clarity { padding: 28px 30px; color: #e8ff57; background: #2541f4; }
-.visual-clarity::after { content: ""; position: absolute; right: -17%; top: -40%; width: 70%; aspect-ratio: 1; border: 1px solid rgba(231,255,85,.45); border-radius: 50%; box-shadow: 0 0 0 35px rgba(231,255,85,.05),0 0 0 70px rgba(231,255,85,.04); }
-.clarity-label { position: relative; z-index: 2; font-size: 7px; letter-spacing: .18em; }
-.visual-clarity strong { position: relative; z-index: 2; margin-top: 24px; display: block; font-family: var(--serif); font-size: clamp(22px,3vw,42px); font-weight: 400; line-height: 1.08; }
-.clarity-scale { position: absolute; z-index: 2; left: 30px; right: 30px; bottom: 24px; display: grid; grid-template-columns: repeat(4,1fr); border-top: 1px solid rgba(232,255,87,.6); }
-.clarity-scale span { padding-top: 7px; font-size: 7px; }
 .visual-mindnest { padding: 29px 31px; color:#17305f; background:linear-gradient(132deg,#f7f9fc 0 42%,#dfe9fa 42% 60%,#d7f1e6 60%); }
 .visual-mindnest::before { content:""; position:absolute; right:-7%; top:-20%; width:45%; aspect-ratio:1; border:1px solid rgba(39,100,232,.2); border-radius:50%; box-shadow:0 0 0 30px rgba(39,100,232,.035),0 0 0 60px rgba(39,100,232,.025); }
 .nest-kicker { position:relative; z-index:2; font-size:7px; font-weight:650; letter-spacing:.16em; }
@@ -165,17 +159,14 @@ button, input { font: inherit; }
 .case-hero { position: relative; min-height: 100svh; overflow: hidden; }
 .case-aether .case-hero,.case-harness .case-hero,.case-simulation .case-hero,.case-gsb .case-hero { color: #eeeae2; background: #0c0d12; }
 .case-memory .case-hero { background: #d8f0c8; }
-.case-clarity .case-hero { color: #ecff77; background: #2541f4; }
 .case-mindnest .case-hero { background: #e7eef8; }
 .back-link { position: absolute; z-index: 5; left: 4.2vw; top: 108px; font-size: 8px; letter-spacing: .12em; opacity: .6; }
 .case-title { position: relative; z-index: 3; width: 48%; padding: 20vh 0 9vh 4.2vw; }
 .case-title .eyebrow { max-width: 570px; }
 .case-aether .case-title .eyebrow,.case-harness .case-title .eyebrow,.case-simulation .case-title .eyebrow,.case-gsb .case-title .eyebrow { color: rgba(255,255,255,.44); }
-.case-clarity .case-title .eyebrow { color: rgba(234,255,111,.66); }
 .case-title h1 { margin: 7vh 0 10px; font-family: var(--serif); font-size: clamp(66px,9vw,138px); font-weight: 400; line-height: .95; letter-spacing: -.065em; }
 .case-english { margin: 0 0 42px; color: #75756e; font-family: var(--serif); font-size: 13px; font-style: italic; }
 .case-aether .case-english,.case-harness .case-english,.case-simulation .case-english,.case-gsb .case-english { color: #85817b; }
-.case-clarity .case-english { color: rgba(234,255,111,.68); }
 .case-lead { max-width: 620px; margin: 0; font-family: var(--serif); font-size: 15px; line-height: 1.9; }
 .case-actions { margin-top: 44px; display: flex; gap: 10px; }
 .case-actions a { min-width: 140px; padding: 13px 15px; display: flex; justify-content: space-between; border: 1px solid currentColor; font-size: 8px; font-weight: 700; letter-spacing: .1em; transition: .25s ease; }

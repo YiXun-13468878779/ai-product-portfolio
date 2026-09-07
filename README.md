@@ -17,8 +17,7 @@
 | 03 | **LLM Agent 社会仿真实验** | 计算社会科学与多智能体机制研究 | [预览研究演示](https://yixun-ai-portfolio.vercel.app/research/llm-agent-society.pdf) | — |
 | 04 | **MindNest** | AI 知识管理与研究 Agent | [Demo](https://mindnest-alpha.vercel.app/) | [GitHub](https://github.com/YiXun-13468878779/mindnest) |
 | 05 | **AI 助手的记忆系统** | AI 记忆透明度与控制权 | [Demo](https://memory-usage-summary.nocode.host/) | — |
-| 06 | **AI 技术科普平台** | 渐进式 AI 知识体验 | [Demo](https://ai-clarity-hub.nocode.host/) | — |
-| 07 | **GSB Studio** | 对话模型人工评估闭环 | [Demo](https://gsb-studio.vercel.app/) | [GitHub](https://github.com/YiXun-13468878779/gsb-studio) |
+| 06 | **GSB Studio** | 对话模型人工评估闭环 | [Demo](https://gsb-studio.vercel.app/) | [GitHub](https://github.com/YiXun-13468878779/gsb-studio) |
 
 ## 代表项目
 
@@ -51,13 +50,12 @@
 
 ```text
 index.html                  作品集首页
-projects/                   七个项目的独立案例页面
+projects/                   六个项目的独立案例页面
   aether-2/
   harness-city/
   agent-society-simulation/
   mindnest/
   memory-control/
-  ai-clarity/
   gsb-evaluation/
 demos/                      HARNESS / CITY 离线交互页面
 research/                   可在线预览与下载的研究演示 PDF
