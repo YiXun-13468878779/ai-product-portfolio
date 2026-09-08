@@ -79,18 +79,6 @@ button, input { font: inherit; }
 .visual-aether img { width: 100%; height: 100%; display: block; object-fit: cover; transition: transform .7s ease; }
 .visual-aether:hover img { transform: scale(1.015); }
 .visual-index { position: absolute; right: 12px; top: 12px; padding: 6px 7px; color: #d9d2c2; border: 1px solid rgba(255,255,255,.22); background: rgba(10,10,15,.38); font-size: 7px; letter-spacing: .15em; backdrop-filter: blur(8px); }
-.visual-memory { padding: 28px 30px; background: #d8f0c8; color: #1b2516; }
-.visual-memory::before { content: ""; position: absolute; width: 210px; height: 210px; right: -45px; bottom: -60px; border: 1px solid rgba(34,45,27,.35); border-radius: 50%; }
-.memory-head { padding-bottom: 14px; display: flex; justify-content: space-between; border-bottom: 1px solid rgba(32,45,27,.24); font-size: 9px; letter-spacing: .08em; }
-.memory-head i { color: #56614e; font-size: 8px; font-style: normal; }
-.memory-line { position: relative; z-index: 2; width: 80%; margin-top: 17px; padding: 13px 15px; display: flex; justify-content: space-between; background: #f3f4e9; box-shadow: 0 7px 0 rgba(45,51,37,.12); }
-.memory-line.offset { width: 68%; margin-left: 10%; }
-.memory-line.short { width: 54%; }
-.memory-line b { font-family: var(--serif); font-size: 12px; font-weight: 400; }
-.memory-line em { color: #898b7f; font-size: 7px; font-style: normal; }
-.memory-orbit { position: absolute; border: 1px solid #2f3a29; border-radius: 50%; }
-.memory-orbit.one { width: 8px; height: 8px; right: 21%; top: 30%; background: var(--acid); }
-.memory-orbit.two { width: 17px; height: 17px; right: 9%; top: 45%; }
 .visual-mindnest { padding: 29px 31px; color:#17305f; background:linear-gradient(132deg,#f7f9fc 0 42%,#dfe9fa 42% 60%,#d7f1e6 60%); }
 .visual-mindnest::before { content:""; position:absolute; right:-7%; top:-20%; width:45%; aspect-ratio:1; border:1px solid rgba(39,100,232,.2); border-radius:50%; box-shadow:0 0 0 30px rgba(39,100,232,.035),0 0 0 60px rgba(39,100,232,.025); }
 .nest-kicker { position:relative; z-index:2; font-size:7px; font-weight:650; letter-spacing:.16em; }
@@ -158,7 +146,6 @@ button, input { font: inherit; }
 .case-page { background: var(--paper); }
 .case-hero { position: relative; min-height: 100svh; overflow: hidden; }
 .case-aether .case-hero,.case-harness .case-hero,.case-simulation .case-hero,.case-gsb .case-hero { color: #eeeae2; background: #0c0d12; }
-.case-memory .case-hero { background: #d8f0c8; }
 .case-mindnest .case-hero { background: #e7eef8; }
 .back-link { position: absolute; z-index: 5; left: 4.2vw; top: 108px; font-size: 8px; letter-spacing: .12em; opacity: .6; }
 .case-title { position: relative; z-index: 3; width: 48%; padding: 20vh 0 9vh 4.2vw; }
